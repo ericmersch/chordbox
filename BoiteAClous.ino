@@ -18,7 +18,7 @@ int mchord[] = {-2,0,3,7,10,12,15,19,22,24};
 int Mnotes[] = {0,2,4,5,7,9,11,12,14,16,17,19,21,23,24};
 int mnotes[] = {0,2,3,5,7,8,10,12,14,15,17,19,20,22,24};
 int Mdegree[] = {3,-2,5,0,-5,2,-3};
-int mdegree[] = {-3,4,-1,-6,1,-4,3};
+int mdegree[] = {0,-5,2,-3,4,-1,6};
 int rootN = 48;
 int rootC = 48;
 
@@ -62,10 +62,10 @@ void setup() {
   }
   //Serial.println("MPR121ABCD found!");
 
-  cap1.setThresholds(25, 2);
-  cap2.setThresholds(25, 2);
-  cap3.setThresholds(25, 2);
-  cap4.setThresholds(25, 2);
+  cap1.setThresholds(15, 2);
+  cap2.setThresholds(15, 2);
+  cap3.setThresholds(15, 2);
+  cap4.setThresholds(15, 2);
 
     for(int i = 0;i<10;i++){
       chord[i] = Mchord[i]+Mdegree[3]+rootC;
