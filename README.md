@@ -2,7 +2,7 @@
 A DIY project inspired from the Omnichord that allows you to play chord using everyday objects
 
 You can see a demo as using a DAW here : https://youtu.be/DtHRvjEAXro
-and using everyday objets here: https://youtu.be/59gXW6P6Y7c
+and using everyday objets here: https://youtu.be/4ngepmXps8s
 
 This project is composed of two parts that can be operated separately.
 
