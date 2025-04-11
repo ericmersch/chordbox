@@ -12,4 +12,4 @@ I used and Arduino Pro Micro and 4 MPR121 chips for capacitive touch sensors.
 
 2. modal_unit.pd and modal_synth.pd
 
-These puredata pactch can be used to tranform the sound of everyday objects to tones or chords unsing any midi controller, for example, the one that you can built using BoiteaClous.ino.
+These puredata patch can be used to tranform the sound of everyday objects to tones or chords unsing any midi controller, for example, the one that you can build using BoiteaClous.ino.
