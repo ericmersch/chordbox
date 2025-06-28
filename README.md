@@ -1,5 +1,5 @@
 # chordbox
-A DIY project inspired from the Omnichord that allows you to play chord using everyday objects
+A DIY project inspired from the accordion and the Omnichord that allows you to play chord using everyday objects
 
 You can see a demo as using a DAW here : https://youtu.be/DtHRvjEAXro
 and using everyday objets here: https://youtu.be/4ngepmXps8s
@@ -7,9 +7,11 @@ and using everyday objets here: https://youtu.be/4ngepmXps8s
 This project is composed of two parts that can be operated separately.
 
 1. BoiteaClous.ino
-The first part is a code for Arduino that can be used to build a midi controller inspired from the Omnichord and the corce of fifths.
-I used and Arduino Pro Micro and 4 MPR121 chips for capacitive touch sensors.
+The first part is a code for Arduino that can be used to build a MIDI controller inspired from the Omnichord and the circle of fifths.
+I used an Arduino Pro Micro and 4 MPR121 chips for capacitive touch sensors.
 
 2. modal_unit.pd and modal_synth.pd
 
-These puredata patch can be used to tranform the sound of everyday objects to tones or chords unsing any midi controller, for example, the one that you can build using BoiteaClous.ino.
+These puredata patch can be used to tranform the sound of everyday objects to tones or chords using any midi controller, for example, the one that you can build using BoiteaClous.ino.
+
+Among my inspirations, I can cite the instrument "Squares" of Iain McCurdy, who was kind enough to reveal me the principle behind his instrument. http://iainmccurdy.org/instruments.html
